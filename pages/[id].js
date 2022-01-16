@@ -55,7 +55,7 @@ function PostPage({ trendingResults, followResults, providers }) {
         <title>
           {post?.username} on Twitter: "{post?.text}"
         </title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://rb.gy/ogau5a" />
       </Head>
 
       <main className="bg-black min-h-screen flex max-w-[1500px] mx-auto">
@@ -98,10 +98,10 @@ function PostPage({ trendingResults, followResults, providers }) {
 export default PostPage;
 
 export async function getServerSideProps(context) {
-  const trendingResults = await fetch("https://jsonkeeper.com/b/NKEV").then(
+  const trendingResults = await fetch("https://jsonkeeper.com/b/92CZ").then(
     (res) => res.json()
   );
-  const followResults = await fetch("https://jsonkeeper.com/b/WWMJ").then(
+  const followResults = await fetch("https://jsonkeeper.com/b/SDMB").then(
     (res) => res.json()
   );
   const providers = await getProviders();

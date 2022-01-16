@@ -54,4 +54,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-//some random changes for git
+//latest edit in package.json     "heroku-postbuild": "npm run build" and next line
